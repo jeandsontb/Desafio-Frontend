@@ -5,6 +5,8 @@ import { Presentations } from '../../components/Presentations';
 import { PresentationsDetails } from '../../components/PresentationsDetails';
 import { Quality } from '../../components/Quality';
 import { Promotion } from '../../components/Promotion';
+import { ShirtShop } from '../../components/ShirtShop';
+import { Testimonial } from '../../components/Testimonial';
 
 const Home = () => {
   return (
@@ -44,6 +46,14 @@ const Home = () => {
       <S.BoxPromotion>
         <Promotion />
       </S.BoxPromotion>
+
+      <S.BoxShirtShop>
+        <ShirtShop />
+      </S.BoxShirtShop>
+
+      <S.BoxTestimonial>
+        <Testimonial />
+      </S.BoxTestimonial>
     </S.Container>
   );
 }

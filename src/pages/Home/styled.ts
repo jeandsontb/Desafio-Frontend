@@ -69,5 +69,10 @@ export default {
   BoxPromotion: styled.div`
     width: 100%;
   `,
-  
+  BoxShirtShop: styled.div`
+    width: 100%;
+  `,  
+  BoxTestimonial: styled.div`
+    width: 100%;
+  `,
 }
