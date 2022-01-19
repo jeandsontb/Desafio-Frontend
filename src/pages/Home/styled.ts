@@ -57,5 +57,8 @@ export default {
     margin-top: 25px;
     width: 298px;
   `,
+  BoxPresentation: styled.div`
+    width: 100%;
+  `,
   
 }

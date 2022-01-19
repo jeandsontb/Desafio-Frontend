@@ -4,6 +4,7 @@ declare module 'styled-components' {
   export interface DefaultTheme {
     colors: {
         primary: string;
+        primaryLigh: string;
         primaryOpacity: string;
         secondary: string;
         tertiary: string;
@@ -13,6 +14,8 @@ declare module 'styled-components' {
         backgroundBlack: string;
         textButton: string;
         textClean: string;
+        textGray: string;
+        grayRelative: string;
     },
     fonts: {
       lato: string;
