@@ -12,10 +12,16 @@ declare module 'styled-components' {
         background2: string;
         textMenuNormal: string;
         backgroundBlack: string;
+        backgroundBlue: string;
+        backgroundClean: string;
+        buttonSecondaryText: string;
         textButton: string;
         textClean: string;
         textGray: string;
+        textGrayStrong: string;
         grayRelative: string;
+        textGrayLight: string;
+        textGolden: string;
     },
     fonts: {
       lato: string;

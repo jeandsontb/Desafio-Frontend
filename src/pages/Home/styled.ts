@@ -60,5 +60,14 @@ export default {
   BoxPresentation: styled.div`
     width: 100%;
   `,
+  BoxPresentationDetails: styled.div`
+    width: 100%;
+  `,
+  BoxQuality: styled.div`
+    width: 100%;
+  `,
+  BoxPromotion: styled.div`
+    width: 100%;
+  `,
   
 }

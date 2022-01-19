@@ -76,5 +76,8 @@ export default {
     bottom: 100px;
     right: 0px;
   `,
-  ImageDetail: styled.img``,
+  ImageDetail: styled.img`
+    width: 100%;
+    height: 100%;
+  `,
 }

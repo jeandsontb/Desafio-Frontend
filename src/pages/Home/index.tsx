@@ -2,6 +2,9 @@ import { MenuDefault } from '../../components/MenuDefault';
 import S from './styled';
 import { Button } from '../../components/Forms/Button';
 import { Presentations } from '../../components/Presentations';
+import { PresentationsDetails } from '../../components/PresentationsDetails';
+import { Quality } from '../../components/Quality';
+import { Promotion } from '../../components/Promotion';
 
 const Home = () => {
   return (
@@ -15,8 +18,8 @@ const Home = () => {
             <S.TextFinal>para chamar de seu.</S.TextFinal>
           </S.BoxTitle>
           <S.TextDescription>
-            COMPRE HOJE,<strong> PAGUE EM ATÉ 3X {'\n'} 
-            COM 12% DE DESCONTO </strong> E TENHA {'\n'} 10 MESES PARA CONFECCIONAR!
+            COMPRE HOJE,<strong> PAGUE EM ATÉ 3X <br /> 
+            COM 12% DE DESCONTO </strong> E TENHA <br /> 10 MESES PARA CONFECCIONAR!
           </S.TextDescription>
           <S.BoxButton>
             <Button >
@@ -29,6 +32,18 @@ const Home = () => {
       <S.BoxPresentation>
         <Presentations />
       </S.BoxPresentation>
+
+      <S.BoxPresentationDetails>
+        <PresentationsDetails />
+      </S.BoxPresentationDetails>
+
+      <S.BoxQuality>
+        <Quality />
+      </S.BoxQuality>
+
+      <S.BoxPromotion>
+        <Promotion />
+      </S.BoxPromotion>
     </S.Container>
   );
 }
