@@ -7,17 +7,21 @@ interface ITestimonialProps {
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   Container: styled.section`
+    display: flex;
     width: 100%;
+    height: 608px;
   `,
   Content: styled.div`
     display: flex;
+    flex: 1;
     justify-content: center;
     align-items: center;
-    background-color: ${({theme}) => theme.colors.primary};
     background-image: url(assets/testimonial.png);
-    width: 100%;
-    height: 608px;
-    padding: 62px 150px 84px 150px;
+    background-color: ${({theme}) => theme.colors.primary};
+    padding: 62px 80px 84px 80px;
+  `,
+  BoxMaskered: styled.div`
+  
   `,
   BoxButtonLeft: styled.div`
     display: flex;
@@ -29,17 +33,28 @@ export default {
   `,
   BoxBodyDepoiment: styled.div`
     display: flex;
+    width: 100%;
+    height: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 760px;
-    margin: 0 138px;
+    padding: 0 50px;
+    justify-content: space-between;
+  `,
+  BoxTitleDepoiment: styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 65px;
   `,
   TextTitleDepoiment: styled.h2`
     font-family: ${({theme}) => theme.fonts.cormorant};
     color: ${({theme}) => theme.colors.textGrayLight};
     font-weight: 300;
     font-size: 38px;
+    margin-top: 30px;
   `,
   BoxLineText: styled.hr`
     width: 53px;
@@ -69,9 +84,12 @@ export default {
   `,
   BoxDepoimentsVisible: styled.div<ITestimonialProps>`
     display: ${({active}) => active ? 'flex' : 'none'};
+    margin-left: ${({active}) => !active ? '-1000px' : 0};
+    min-height: 400px;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    overflow: hidden;
+    transition: all ease 0.3s;
   `,
   TextName: styled.p`
     margin-top: 14px;
@@ -89,11 +107,13 @@ export default {
   BoxButtons: styled.div`
     display: flex;
   `,
-  Buttons: styled.div`
+  Buttons: styled.div<ITestimonialProps>`
     width: 10px;
     height: 10px;
     border-radius: 5px;
-    background-color: ${({theme}) => theme.colors.textGolden};
+    background-color: ${({theme, active}) => 
+      active ? theme.colors.primaryLigh : 'transparent'};
+    border: 1px solid ${({theme}) => theme.colors.primaryLigh};
     margin-top: 32px;
     margin-left: 10px;
     margin-right: 10px;
@@ -116,6 +136,7 @@ export default {
     border: none;
     width: 60px;
     height: 60px;
+    margin-top: 130px;
     cursor: pointer;
   `,
 }
