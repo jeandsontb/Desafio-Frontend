@@ -59,6 +59,7 @@ export default {
   `,
   BoxPresentation: styled.div`
     width: 100%;
+    padding-top: 10px;
   `,
   BoxPresentationDetails: styled.div`
     width: 100%;

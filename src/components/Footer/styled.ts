@@ -36,7 +36,9 @@ export default {
     font-weight: 300;
     font-size: 14px;
   `,
-  ButtonTop: styled.button`
+  ButtonTop: styled.a`
+    display: flex;
+    text-decoration: none;
     position: absolute;
     background-color: ${({theme}) => theme.colors.background};
     color: ${({theme}) => theme.colors.primary};

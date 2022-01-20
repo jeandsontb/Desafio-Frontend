@@ -14,7 +14,7 @@ import { MenuFixed } from '../../components/MenuFixed';
 const Home = () => {
   return (
     <S.Container>
-      <S.BoxBanner>
+      <S.BoxBanner id="home">
         <MenuDefault />
         <S.BoxGroup>
           <S.BoxTitle>
@@ -34,7 +34,7 @@ const Home = () => {
         </S.BoxGroup>
       </S.BoxBanner>
 
-      <S.BoxPresentation>
+      <S.BoxPresentation id="busines">
         <Presentations />
       </S.BoxPresentation>
 
@@ -42,7 +42,7 @@ const Home = () => {
         <PresentationsDetails />
       </S.BoxPresentationDetails>
 
-      <S.BoxQuality>
+      <S.BoxQuality id="tuxedo">
         <Quality />
       </S.BoxQuality>
 
@@ -50,15 +50,15 @@ const Home = () => {
         <Promotion />
       </S.BoxPromotion>
 
-      <S.BoxShirtShop>
+      <S.BoxShirtShop id="shirt" >
         <ShirtShop />
       </S.BoxShirtShop>
 
-      <S.BoxTestimonial>
+      <S.BoxTestimonial id="testimonial">
         <Testimonial />
       </S.BoxTestimonial>
 
-      <S.Contact>
+      <S.Contact id="contact">
         <Contacts />
       </S.Contact>
 

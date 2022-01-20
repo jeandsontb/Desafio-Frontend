@@ -1,20 +1,30 @@
-import { useTheme } from 'styled-components';
 import { FiChevronLeft, FiChevronRight } from 'react-icons/fi'
 
 import S from './styled';
 import depoiments from '../../utils/Depoiments';
+import { useEffect, useState } from 'react';
+import { IDepoimentsDto } from '../../dtos/depoimentsDto';
 
 const Testimonial = () => {
 
-  const theme = useTheme();
+  const [ clientsDepoiments, setClientsDepoiments ] = useState<IDepoimentsDto[]>([] as IDepoimentsDto[]);
 
-  const dp = depoiments[0];
+  useEffect(() => {
+    const populateClientsDepoiments = () => {
+      setClientsDepoiments(depoiments);
+    }
+    populateClientsDepoiments();
+  }, []);
+
+  const handleVefifyClick = (option: string) => {
+    console.log(option)
+  }
 
   return (
     <S.Container>
       <S.Content>
         <S.BoxButtonLeft>
-          <S.ButtonSlider>
+          <S.ButtonSlider onClick={() => handleVefifyClick('previous')}>
           <FiChevronLeft size={60} />
           </S.ButtonSlider>
         </S.BoxButtonLeft>
@@ -23,17 +33,24 @@ const Testimonial = () => {
           <S.TextTitleDepoiment>Depoimentos</S.TextTitleDepoiment>
           <S.BoxLineText />
 
-          <S.BoxImage>
-            <S.ImageAvatar src={dp.photo} alt="Avatar"/>
-          </S.BoxImage>
+          {clientsDepoiments.map((item) => {
+            return (
+              <S.BoxDepoimentsVisible key={item.id} active={item.active}>
+                <S.BoxImage>
+                  <S.ImageAvatar src={item.photo} alt="Avatar"/>
+                </S.BoxImage>
 
-          <S.TextDepoimentDescription>
-            {dp.depoiment}
-          </S.TextDepoimentDescription>
-          <S.TextName> {dp.name} </S.TextName>
-          <S.TextDescription> {dp.description} </S.TextDescription>
+                <S.TextDepoimentDescription>
+                  {item.depoiment}
+                </S.TextDepoimentDescription>
+                <S.TextName> {item.name} </S.TextName>
+                <S.TextDescription> {item.description} </S.TextDescription>
+              </S.BoxDepoimentsVisible>
+            )
+          })}
 
           <S.BoxButtons>
+            <S.Buttons />
             <S.Buttons />
             <S.Buttons />
             <S.Buttons />
@@ -42,7 +59,7 @@ const Testimonial = () => {
         </S.BoxBodyDepoiment>
 
         <S.BoxButtonRight>
-          <S.ButtonSlider>
+          <S.ButtonSlider onClick={() => handleVefifyClick('next')}>
             <FiChevronRight size={60} />
           </S.ButtonSlider>
         </S.BoxButtonRight>

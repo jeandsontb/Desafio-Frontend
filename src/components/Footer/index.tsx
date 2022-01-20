@@ -16,7 +16,7 @@ const Footer = () => {
         </S.TextAuthorized>
       </S.BoxAuthorized>
 
-      <S.ButtonTop>
+      <S.ButtonTop href="#home">
         <AiOutlineUp size={24} />
       </S.ButtonTop>
     </S.Container>

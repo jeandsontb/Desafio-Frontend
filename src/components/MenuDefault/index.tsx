@@ -4,13 +4,13 @@ import menuList from '../../utils/ListMenu';
 const MenuDefault = () => {
   return (
     <S.Container>
-      <S.BoxLogo>
+      <S.BoxLogo>        
         <S.ImageLogo src="assets/Logo.png" />
       </S.BoxLogo>
 
       <S.BoxMenu>
         {menuList.map(item => (
-          <S.TextMenu key={item.id} >{ item.name }</S.TextMenu>
+          <S.TextMenu key={item.id} href={`#${item.link}`} >{ item.name }</S.TextMenu>
         ))}
       </S.BoxMenu>
     </S.Container>

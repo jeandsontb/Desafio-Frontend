@@ -1,5 +1,9 @@
 import styled from 'styled-components';
 
+interface ITestimonialProps {
+  active: boolean;
+}
+
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   Container: styled.section`
@@ -62,6 +66,12 @@ export default {
     font-style: italic;
     font-size: 26px;
     text-align: center;
+  `,
+  BoxDepoimentsVisible: styled.div<ITestimonialProps>`
+    display: ${({active}) => active ? 'flex' : 'none'};
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   `,
   TextName: styled.p`
     margin-top: 14px;

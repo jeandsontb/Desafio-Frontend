@@ -23,7 +23,8 @@ export default {
   BoxMenu: styled.div`
     display: flex;
   `,
-  TextMenu: styled.span`
+  TextMenu: styled.a`
+    text-decoration: none;
     font-family: ${({theme}) => theme.fonts.lato};
     font-size: 16px;
     font-weight: 300;
