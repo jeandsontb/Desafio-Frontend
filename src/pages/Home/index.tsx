@@ -7,6 +7,9 @@ import { Quality } from '../../components/Quality';
 import { Promotion } from '../../components/Promotion';
 import { ShirtShop } from '../../components/ShirtShop';
 import { Testimonial } from '../../components/Testimonial';
+import { Contacts } from '../../components/Contacts';
+import { Footer } from '../../components/Footer';
+import { MenuFixed } from '../../components/MenuFixed';
 
 const Home = () => {
   return (
@@ -54,6 +57,18 @@ const Home = () => {
       <S.BoxTestimonial>
         <Testimonial />
       </S.BoxTestimonial>
+
+      <S.Contact>
+        <Contacts />
+      </S.Contact>
+
+      <S.Footer>
+        <Footer />
+      </S.Footer>
+
+      <S.MenuFixed>
+        <MenuFixed />
+      </S.MenuFixed>
     </S.Container>
   );
 }

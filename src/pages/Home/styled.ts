@@ -75,4 +75,16 @@ export default {
   BoxTestimonial: styled.div`
     width: 100%;
   `,
+  Contact: styled.div`
+    width: 100%;
+  `,
+  Footer: styled.div`
+    width: 100%;
+  `,
+  MenuFixed: styled.div`
+    width: 100%;
+    position: fixed;
+    z-index: 6000;
+    top: 0;
+  `,
 }

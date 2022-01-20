@@ -19,14 +19,21 @@ export const theme = {
     textMenuNormal: colors.TEXT_MENU_NORMAL,
     textClean: colors.TEXT_CLEAN,
     textGray: colors.TEXT_GRAY,
+    textGrayActive: colors.TEXT_GRAY_ACTIVE,
     textGrayStrong: colors.TEXT_GRAY_STRONG,
+    textGrayMedium: colors.TEXT_GRAY_MEDIUM,
     textGrayLight: colors.TEXT_GRAY_LIGHT,
+    textGrayMint: colors.TEXT_GRAY_MINT,
+    textGrayClean: colors.TEXT_GRAY_CLEAN,
     textGolden: colors.TEXT_GOLDEN,
     textButton: colors.TEXT_BUTTON,
+    lineBlue: colors.LINE_BLUE,
+    lineBlueLight: colors.LINE_BLUE_LIGHT
   },
   fonts: {
     lato: fonts.Lato,
     cormorant: fonts.Cormorant,
-    plafair: fonts.Plafair
+    plafair: fonts.Plafair,
+    poppins: fonts.Poppins
   }
 }

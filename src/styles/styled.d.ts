@@ -18,15 +18,22 @@ declare module 'styled-components' {
         textButton: string;
         textClean: string;
         textGray: string;
+        textGrayActive: string;
         textGrayStrong: string;
+        textGrayMedium: string;
         grayRelative: string;
         textGrayLight: string;
+        textGrayMint: string;
+        textGrayClean: string;
         textGolden: string;
+        lineBlue: string;
+        lineBlueLight: string;
     },
     fonts: {
       lato: string;
       cormorant: string;
       plafair: string;
+      poppins: string;
     }
   }
 }
