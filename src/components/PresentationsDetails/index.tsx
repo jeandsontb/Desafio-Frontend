@@ -24,6 +24,15 @@ const PresentationsDetails = () => {
         </S.BoxDetailsDescription>        
       </S.BoxDetailsRight>
 
+      {/*Box apenas para mobile first*/}
+      <S.BoxImageMobile>
+        <S.ImagePerfilMobile src="assets/mobile/trajar1.png" />
+        <S.BoxPhotoShadownMobile />
+        <S.BoxPhotoMobileFloat>
+        <S.ImagePhotoMobile src="assets/mobile/trajar2.png" />
+        </S.BoxPhotoMobileFloat>
+      </S.BoxImageMobile>
+
       <S.BoxDetailsLeft>
         <S.ImagePerfil src="assets/perfil.png" alt="Renee Trajar" />
         <S.BoxPhotoShadown />

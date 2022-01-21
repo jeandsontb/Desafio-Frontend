@@ -14,6 +14,11 @@ const Presentations = () => {
             <S.TextTitle>Renee Trajar</S.TextTitle>
             <S.LineSeparator />
           </S.BoxTitle>
+
+          <S.BoxImageMobile>
+            <S.ImageTrajarMobile src="assets/mobile/trajar.png" />
+          </S.BoxImageMobile>
+
           <S.BoxImageDetail>
             <S.ImageDetail src="assets/aspas.png" />
           </S.BoxImageDetail>

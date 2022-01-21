@@ -7,7 +7,10 @@ interface ITestimonialProps {
 // eslint-disable-next-line import/no-anonymous-default-export
 export default {
   Container: styled.section`
+    position: relative;
     display: flex;
+    background-image: url(assets/testimonial.png);
+    background-color: ${({theme}) => theme.colors.backgroundBlue};    
     width: 100%;
     height: 608px;
   `,
@@ -15,13 +18,8 @@ export default {
     display: flex;
     flex: 1;
     justify-content: center;
-    align-items: center;
-    background-image: url(assets/testimonial.png);
-    background-color: ${({theme}) => theme.colors.primary};
+    align-items: center;     
     padding: 62px 80px 84px 80px;
-  `,
-  BoxMaskered: styled.div`
-  
   `,
   BoxButtonLeft: styled.div`
     display: flex;
@@ -84,7 +82,6 @@ export default {
   `,
   BoxDepoimentsVisible: styled.div<ITestimonialProps>`
     display: ${({active}) => active ? 'flex' : 'none'};
-    margin-left: ${({active}) => !active ? '-1000px' : 0};
     min-height: 400px;
     flex-direction: column;
     align-items: center;

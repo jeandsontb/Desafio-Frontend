@@ -17,6 +17,10 @@ export default {
     background-color: ${({theme}) => theme.colors.background};
     box-shadow: 0px 4px 5px ${({theme}) => theme.colors.textGrayClean};
     transition: all ease 0.3s;
+
+    @media(max-width:768px) {
+      display: none;
+    }
   `,
   BoxLogo: styled.div``,
   ImageLogo: styled.img`

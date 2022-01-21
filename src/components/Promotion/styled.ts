@@ -8,6 +8,10 @@ export default {
     width: 100%;
     background-image: url(assets/tailor1.png);
     background-size: cover;
+
+    @media(max-width:768px) {
+      height: auto;
+    }
   `,
   BoxBackground: styled.section`
     display: flex;
@@ -17,6 +21,11 @@ export default {
     background-color: ${({theme}) => theme.colors.backgroundBlue};
     opacity: 0.98;
     padding: 25px 168px;
+
+    @media(max-width:768px) {
+      height: auto;
+      padding: 40px 23px 60px 23px;
+    }
   `,
   BoxDescription: styled.div`
     display: flex;
@@ -50,6 +59,11 @@ export default {
     font-style: italic;
     font-size: 30px;
     margin-bottom: -20px;
+
+    @media(max-width:768px) {
+      margin-top: 20px;
+      margin-bottom: 19px;
+    }
   `,
   TextDescriptionTopic: styled.span`
     display: flex;
@@ -57,6 +71,10 @@ export default {
     color: ${({theme}) => theme.colors.textGrayLight};
     font-weight: 300;
     font-size: 22px;
+
+    @media(max-width:768px) {
+      margin-bottom: 30px;
+    }
   `,
   BoxIcon: styled.div`
     height: 20px;
@@ -65,10 +83,18 @@ export default {
   `,
   BoxButton: styled.div`
     width: 330px;
+
+    @media(max-width:768px) {
+      width: 100%;
+    }
   `,
   BoxImage: styled.div`
     width: 330px;
     height: 517px;
+
+    @media(max-width:768px) {
+      display: none;
+    }
   `,
   ImagePromotion: styled.img`
     width: 330px;

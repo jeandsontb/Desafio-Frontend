@@ -1,3 +1,4 @@
+import { VscMenu } from 'react-icons/vsc';
 import { MenuDefault } from '../../components/MenuDefault';
 import S from './styled';
 import { Button } from '../../components/Forms/Button';
@@ -10,21 +11,46 @@ import { Testimonial } from '../../components/Testimonial';
 import { Contacts } from '../../components/Contacts';
 import { Footer } from '../../components/Footer';
 import { MenuFixed } from '../../components/MenuFixed';
+import { MenuMobile } from '../../components/MenuMobile';
+import { useState } from 'react';
 
 const Home = () => {
+
+  const [ buttonOpenMenuMobile, setButtonOpenMenuMobile ] = useState(false);
+
+  const handleOpenMenuMobile = () => {
+    setButtonOpenMenuMobile(!buttonOpenMenuMobile);
+  }
+
   return (
     <S.Container>
       <S.BoxBanner id="home">
-        <MenuDefault />
-        <S.BoxGroup>
+        <MenuDefault /> 
+        <MenuMobile 
+          openButtonMenu={buttonOpenMenuMobile} 
+          closeButtonMenu={setButtonOpenMenuMobile}
+        />  
+
+        <S.BoxButtonMobile 
+          onClick={handleOpenMenuMobile}
+        >
+          <VscMenu size={35} />
+        </S.BoxButtonMobile>    
+
+        <S.BoxLogo>
+          <S.ImageLogo src="assets/Logo.png" alt="logo" />
+        </S.BoxLogo>
+
+        <S.BoxGroup>          
+
           <S.BoxTitle>
             <S.TextInitial>Elegante é ter um</S.TextInitial>
             <S.TextMiddle>ALFAIATE</S.TextMiddle>
             <S.TextFinal>para chamar de seu.</S.TextFinal>
           </S.BoxTitle>
           <S.TextDescription>
-            COMPRE HOJE,<strong> PAGUE EM ATÉ 3X <br /> 
-            COM 12% DE DESCONTO </strong> E TENHA <br /> 10 MESES PARA CONFECCIONAR!
+            COMPRE HOJE,<strong> PAGUE EM ATÉ 3X  
+            COM 12% DE DESCONTO </strong> E TENHA  10 MESES PARA CONFECCIONAR!
           </S.TextDescription>
           <S.BoxButton>
             <Button >

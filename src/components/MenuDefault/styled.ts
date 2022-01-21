@@ -11,6 +11,10 @@ export default {
     align-items: center;
     background-image:linear-gradient(360deg, transparent, ${({theme}) => 
     theme.colors.backgroundBlack} 70%);
+
+    @media(max-width:768px) {
+      display: none;
+    }
   `,
   BoxLogo: styled.div`
     width: 122px;
