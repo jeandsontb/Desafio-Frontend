@@ -23,6 +23,7 @@ export default {
     padding: 25px 168px;
 
     @media(max-width:768px) {
+      flex-direction: column;
       height: auto;
       padding: 40px 23px 60px 23px;
     }

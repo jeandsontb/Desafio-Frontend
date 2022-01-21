@@ -36,7 +36,7 @@ const ShirtShop = () => {
                 </S.BoxDescriptionInfo>
               </S.BoxSeparatorButton>
 
-              <S.BoxButton>
+              <S.BoxButton verifyButton={false}>
                 <Button type='button' >
                   Quero um orçamento
                 </Button>
@@ -45,6 +45,10 @@ const ShirtShop = () => {
           </S.BoxSeparatorLine>
         </S.BoxDescription>
       </S.BoxContent>
+
+      <S.BoxSeparatorMobile>
+        <S.LineSeparator />
+      </S.BoxSeparatorMobile>
 
       <S.BoxContent orientation={true} >
         <S.BoxImage orientation={true}>
@@ -76,7 +80,7 @@ const ShirtShop = () => {
                 </S.BoxDescriptionInfo>
               </S.BoxSeparatorButton>
 
-              <S.BoxButton>
+              <S.BoxButton verifyButton={true}>
                 <Button type='button' >
                   Quero um orçamento
                 </Button>
