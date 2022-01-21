@@ -48,14 +48,13 @@ const Testimonial = () => {
     newDepoiment[0].active = false;
     setClientsDepoiments(depoimentTemp);
     depoimentTemp[id].active = true;
-    setClientsDepoiments(depoimentTemp);
     return;
   }
 
   return (
     <S.Container>
       <S.Content>
-        <S.BoxButtonLeft>
+        <S.BoxButtonLeft direction={false}>
           <S.ButtonSlider onClick={() => handleVefifyClick('previous')}>
           <FiChevronLeft size={60} />
           </S.ButtonSlider>
@@ -67,6 +66,7 @@ const Testimonial = () => {
             <S.BoxLineText />
           </S.BoxTitleDepoiment>
 
+          
           {clientsDepoiments.map((item) => (
             <S.BoxDepoimentsVisible key={item.id} active={item.active}>
               <S.BoxImage>
@@ -88,10 +88,11 @@ const Testimonial = () => {
                 onClick={() => handleSelectTestemonialButton(item.id)}
               />
             ))}
-          </S.BoxButtons> 
+          </S.BoxButtons>   
+
         </S.BoxBodyDepoiment>
 
-        <S.BoxButtonRight>
+        <S.BoxButtonRight direction={true}>
           <S.ButtonSlider onClick={() => handleVefifyClick('next')}>
             <FiChevronRight size={60} />
           </S.ButtonSlider>
