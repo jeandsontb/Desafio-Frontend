@@ -16,6 +16,10 @@ RENEE TRAJAR - Esse projeto foi um desafio frontend para ser desevolvido a parti
 
 Para esse projeto utilizei React.JS, Styled-Components e Typescript. Também estou implementando toda a interface mobile para esse projeto.
 
+## Apresentação do projeto funcionando abaixo
+
+https://www.loom.com/share/32b939618b5c45fdbd11d204c45fc174
+
 ## 🎨 Layout
 
 O layout foi elaborado pela equipe Fasters
