@@ -1,9 +1,9 @@
 <h1 align="center">
-    <img alt="Renee" title="#Trajar" src="" />
+    <img alt="Renee" title="#Trajar" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/banner.png" />
 </h1>
 
 <h4 align="center"> 
-	🚧 Frontend Garangas Club 1.0, em construção... 🚧
+	🚧 Frontend Renee Trajar 1.0, em construção... 🚧
 </h4>
 
 <p align="center">
@@ -23,33 +23,33 @@ O layout foi elaborado pela equipe Fasters
 ### Web
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Renee" title="#Renee" src="" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project001.png" width="400px">
 
-  <img alt="Renee" title="#Renee" src="" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project002.png" width="400px">
 </p>
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Renee" title="#Renee" src="Renee" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project003%20(1).png" width="400px">
 
-  <img alt="Renee" title="#Renee" src="Renee" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project004.png" width="400px">
 </p>
 
 <p align="center" style="display: flex; align-items: flex-start; justify-content: center;">
-  <img alt="Renee" title="#Renee" src="Renee" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project005.png" width="400px">
 
-  <img alt="Renee" title="#Renee" src="Renee" width="400px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project006.png" width="400px">
 </p>
 
 
 ### Mobile
 
 <p align="center">
-  <img alt="Renee" title="#Renee" src="" width="200px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projectM001.png" width="200px">
 
-  <img alt="Renee" title="#Renee" src="" width="200px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projectM002.png" width="200px">
 
-  <img alt="Renee" title="#Renee" src="" width="200px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projetc003.png" width="200px">
 
-  <img alt="Renee" title="#Renee" src="" width="200px">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projectm004.png" width="200px">
 </p>
 
 ## 🛠 Tecnologias
