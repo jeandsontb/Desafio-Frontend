@@ -16,10 +16,6 @@ RENEE TRAJAR - Esse projeto foi um desafio frontend para ser desevolvido a parti
 
 Para esse projeto utilizei React.JS, Styled-Components e Typescript. Também estou implementando toda a interface mobile para esse projeto.
 
-## Apresentação do projeto funcionando abaixo
-
-https://www.loom.com/share/32b939618b5c45fdbd11d204c45fc174
-
 ## 🎨 Layout
 
 O layout foi elaborado pela equipe Fasters
@@ -55,6 +51,13 @@ O layout foi elaborado pela equipe Fasters
 
   <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projectm004.png" width="200px">
 </p>
+
+## 💻 Apresentação do projeto funcionando abaixo
+
+<p align="center">
+https://www.loom.com/share/32b939618b5c45fdbd11d204c45fc174
+</p>
+
 
 ## 🛠 Tecnologias
 
