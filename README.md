@@ -48,6 +48,14 @@ O layout foi elaborado pela equipe Fasters
   <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/projectm004.png" width="200px">
 </p>
 
+<p align="center">
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project0007.png" width="200px">
+
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/project008.png" width="200px">
+
+  <img alt="Renee" title="#Renee" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/prject009.png" width="200px">
+</p>
+
 ## 💻 Apresentação do projeto funcionando abaixo
 
 <p align="center">
