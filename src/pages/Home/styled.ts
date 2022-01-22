@@ -7,7 +7,6 @@ export default {
 
     @media(max-width:768px) {
       max-width: 100%;
-      /* position: relative; */
       display: flex;
       flex-direction: column;
       width: 100vw;      
