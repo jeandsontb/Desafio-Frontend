@@ -131,7 +131,7 @@ export default {
     flex-direction: column;
     align-items: center;
     overflow: hidden;
-    transition: all ease 0.3s;
+    transition: all ease 0.2s;
 
     @media(max-width:768px) {
       width: 100%;
