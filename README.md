@@ -2,10 +2,6 @@
     <img alt="Renee" title="#Trajar" src="https://raw.githubusercontent.com/jeandsontb/Desafio-Frontend/main/screens/banner.png" />
 </h1>
 
-<h4 align="center"> 
-	🚧 Frontend Renee Trajar 1.0, em construção... 🚧
-</h4>
-
 <p align="center">
   <img alt="Repository size" src="https://img.shields.io/static/v1?label=Last%20commit&message=January&color=yellowgreen&style=for-the-badge&logo=Slack">
 </p>
