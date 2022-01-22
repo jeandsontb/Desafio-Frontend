@@ -7,6 +7,13 @@ export default {
     width: 100%;
     min-height: 503px;
     padding: 49px 168px 84px 198px;
+
+    @media(max-width:768px) {
+      flex-direction: column;
+      padding: 0 23px;
+      margin-top: 60px;
+      padding-bottom: 40px;
+    }
   `,
   Content: styled.div`
     display: flex;
@@ -30,18 +37,32 @@ export default {
   BoxAlignContact: styled.div`
     display: flex;
     flex: 1;
+
+    @media(max-width:768px) {
+      flex-direction: column-reverse;
+      width: 100%;
+    }
   `,
   BoxLeftContact: styled.div`
     display: flex;
     flex: 1;
     flex-direction: column;
     justify-content: space-between;
+
+    @media(max-width:768px) {
+      width: 100%;
+    }
   `,
   BoxGroupContactLeft: styled.div`
     display: flex;
     flex-direction:column;
     padding-top: 40px;
     flex: 1;
+
+    @media(max-width:768px) {
+      width: 100%;
+      align-items: center;
+    }
   `,
   TextPhone: styled.h3`
     font-family: ${({theme}) => theme.fonts.lato};
@@ -88,10 +109,20 @@ export default {
     justify-content: space-between;
     width: 600px;
     height: 100%;
+
+    @media(max-width:768px) {
+      width: 100%;
+      margin-top: 20px;
+    }
   `,
   BoxRightContent: styled.div``,
   BoxButton: styled.div`
     width: 270px;
+
+    @media(max-width:768px) {
+      width: 100%;
+      margin-top: 10px;
+    }
   `,
   BoxButtonRight: styled.div``,
 }
