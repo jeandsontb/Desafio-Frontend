@@ -193,7 +193,7 @@ export default {
     width: 100%;
 
     @media(max-width:768px) {
-      /* display: none; */
+      width: 100%;
     }
   `,
   MenuFixed: styled.div`
