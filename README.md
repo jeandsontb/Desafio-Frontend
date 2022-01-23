@@ -8,7 +8,7 @@
 
 ## 💻 Sobre o Projeto
 
-RENEE TRAJAR - Esse projeto foi um desafio frontend para ser desevolvido totalmente do zero a partir de um layout projetado no figma, para esse projeto busquei utilizar o mínimo de bibliotecas possíveis para toda a interface, Esse é um site SPA (Single Page Application) onde as navegações acontecem em uma única página.
+RENEE TRAJAR - Esse projeto foi um desafio frontend para ser desevolvido totalmente do zero a partir de um layout projetado no figma pela Fasters, para esse projeto busquei utilizar o mínimo de bibliotecas possíveis para toda a interface, Esse é um site SPA (Single Page Application) onde as navegações acontecem em uma única página.
 
 Para esse projeto utilizei React.JS, Styled-Components e Typescript. Também implementei toda a interface mobile (Design Mobile First) para esse projeto.
 

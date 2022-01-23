@@ -6,10 +6,9 @@ export default {
     font-family: ${({theme}) => theme.fonts.lato};
 
     @media(max-width:768px) {
-      max-width: 100%;
+      width: 100vw;     
       display: flex;
       flex-direction: column;
-      width: 100vw;      
     }
   `,
   BoxBanner: styled.section`
@@ -144,13 +143,14 @@ export default {
     @media(max-width:768px) {
       position: absolute;
       margin-top: 725px;
+      width: 100vw;
     }
   `,
   BoxPresentationDetails: styled.div`
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,
   BoxQuality: styled.div`
@@ -164,35 +164,35 @@ export default {
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,
   BoxShirtShop: styled.div`
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,  
   BoxTestimonial: styled.div`
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,
   Contact: styled.div`
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,
   Footer: styled.div`
     width: 100%;
 
     @media(max-width:768px) {
-      width: 100%;
+      width: 100vw;
     }
   `,
   MenuFixed: styled.div`
